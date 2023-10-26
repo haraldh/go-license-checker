@@ -10,11 +10,9 @@ jobs:
     name: License Check
     steps:
       - uses: actions/checkout@v2
-      - uses: yusufpapurcu/go-license-checker@v0.5
+      - uses: haraldh/go-license-checker@v0.5
 ```
 That's it. Just create new yaml file under `.github/workflow` and write this inside it. Also you can see all licenses as csv list in outputs.
-
-![](https://github.com/yusufpapurcu-archive/go-license-checker-test/actions/workflows/check-license.yml/badge.svg)
 
 You can create badge like this for your action.
 ## The Basics: What is an Open Source License?
